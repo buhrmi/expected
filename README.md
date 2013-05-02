@@ -7,12 +7,12 @@ A lot of times, especially when reading someone elses code, you come across code
 
 Take this example
 
-class Person
-  # Unclear comment
-  def full_name
-    return calculate_full_name
-  end
-end
+    class Person
+      # Unclear comment
+      def full_name
+        return calculate_full_name
+      end
+    end
 
 In this example, the developer was very unclear about his intentions. If you were to inherit this code, you'd have no idea what the expected return value of the method full_name should be. The comment isn't helpful, so you have no other choice as to look up the definition of calculate_full_name to actually find out what this method is expected to do.
 
